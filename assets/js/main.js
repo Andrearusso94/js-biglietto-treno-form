@@ -67,5 +67,7 @@ if (age < 18) {
     console.log("Non si applica nessuno sconto", finalPrice);
 }
 
-
+let myMessage = `Ciao questo è il prezzo del tuo biglietto:€ ${finalPrice.toFixed(2)}`
+document.getElementById("demo").innerHTML = myMessage;
 })
+
