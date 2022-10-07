@@ -7,3 +7,17 @@
 body{
     background-color: darkred;
 }
+
+.form{
+    display: flex;
+    background-color: bisque;
+    margin: 2.5rem auto;
+    padding: 2.5rem;
+    justify-content: space-evenly;
+    width: 90%;
+}
+h2{
+    text-align: center;
+    color: azure;
+}
+

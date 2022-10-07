@@ -36,6 +36,7 @@ if (age < 18) {
 const buttonGenerator = document.getElementById("go");
 
 buttonGenerator.addEventListener("click", function(){
+  const myUser = document.getElementById("user").value;
   const nKm = document.getElementById("nKm").value;
 
 
@@ -67,7 +68,7 @@ if (age < 18) {
     console.log("Non si applica nessuno sconto", finalPrice);
 }
 
-let myMessage = `Ciao questo è il prezzo del tuo biglietto:€ ${finalPrice.toFixed(2)}`
+let myMessage =  `${myUser} Questo è il prezzo del tuo biglietto:€ ${finalPrice.toFixed(2)}`
 document.getElementById("demo").innerHTML = myMessage;
 })
 
